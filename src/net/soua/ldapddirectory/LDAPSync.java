@@ -16,6 +16,10 @@ public class LDAPSync extends Activity {
 		String username = "pontus";
 		String password = "hemligt";
 
+	     super.onCreate(savedInstanceState);
+	        setContentView(R.layout.main);
+	        
+	        
 		Account account = new Account(username,
 				getString(R.string.ACCOUNT_TYPE));
 		AccountManager am = AccountManager.get(this);
