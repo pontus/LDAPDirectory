@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LDAPDirectoryActivity!</string>
+    <string name="app_name">LDAPDirectory</string>
+    <string name="ACCOUNT_TYPE">Kontotyp</string>
+
+</resources>
