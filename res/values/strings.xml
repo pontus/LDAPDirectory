@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, LDAPDirectoryActivity!</string>
+    <string name="accountUrl">URL for your LDAP source:</string>
     <string name="app_name">LDAPDirectory</string>
-    <string name="ACCOUNT_TYPE">Kontotyp</string>
+    <string name="ACCOUNT_TYPE">net.soua.LDAPDirectory.account</string>
+    <string name="saveButton">Save settings</string>
+    <string name="createAccount">Create account</string>
+    <string name="prefAction">net.soua.LDAPDirectory.Preferences.ACCOUNT_SETUP</string>
+    <string name="createAction">net.soua.LDAPDirectory.sync.LOGIN</string>
 
 </resources>

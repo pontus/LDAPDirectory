@@ -24,6 +24,7 @@ public class AccountAuthenticatorService extends Service {
 		super();
 	}
 
+	@Override
 	public IBinder onBind(Intent intent) {
 		IBinder ret = null;
 		if (intent.getAction().equals(
@@ -60,6 +61,9 @@ public class AccountAuthenticatorService extends Service {
 				throws NetworkErrorException {
 			Bundle reply = new Bundle();
 
+
+	        Log.e("LDAPSync", "bundle");
+	        
 			Intent i = new Intent(mContext, LDAPSync.class);
 			i.setAction("net.soua.LDAPDirectory.sync.LOGIN");
 			i.putExtra(AccountManager.KEY_ACCOUNT_AUTHENTICATOR_RESPONSE,
